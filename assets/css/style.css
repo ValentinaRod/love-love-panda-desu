@@ -6,3 +6,116 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+*{
+	margin: 0;               /*para no tener margenes ni nada */
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+#Encabezado  {
+	background: url('../img/uno.jpg') no-repeat ;
+	background-position: absolute; /*imagen centrada*/
+	background-size: cover;
+	
+	height: 768PX;
+	z-index: -1; 
+	text-align: right; /*alinear su contenido a la izquierda*/
+
+
+}
+
+#Encabezado div{ 
+	background: #F78E69;;
+	background-size: cover;
+	height: 200px;
+	width: 1366px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	padding: 40px;
+
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;  /*gorsor del texto*/
+	color: #FFFFFF;
+	padding: 5px;
+	line-height: 20px;   /*lineado*/
+	margin: 0px 40px 80px 0px;  /* 40px es izquierda, 80 abajo*/
+}
+
+.caja {
+
+	border: 20px solid  #F78E69;
+	background: #ABE188;
+	height: 650px;
+	width: 1363px;
+	margin: 0px;
+}
+
+.caja-hijo {
+	background: #F78E69;
+	position:relative;
+	top: 65px;
+	bottom:100px;
+	right:100px;
+	left: 25%;
+	width:50%;
+	height: 450px; 
+	margin: 10px;
+
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	top: 50px;
+	bottom: 50px;
+	right:0;
+	left: 0;
+	font-size: 40px;
+	font-weight: bolder;  /*gorsor del texto*/
+	color: #FFFFFF;
+	line-height: 20px;   /*lineado*/
+	margin: 0px 40px 80px 40px;  /* 40px es izquierda, 80 abajo*/
+	text-align: center;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: normal;  /*gorsor del texto*/
+	color: #FFFFFF;
+	margin-left: 50px;  /*te centra y ordena */
+	margin-right: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	overflow: hidden;
+}	
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
